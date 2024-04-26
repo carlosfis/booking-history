@@ -1,0 +1,82 @@
+[
+    {
+      "fullName": "John Doe",
+      "email": "johndoe@example.com",
+      "confirmationNumber": "1234567890",
+      "rooms": "2",
+      "resortName": "Example Resort",
+      "cost": "2300"
+    },
+    {
+      "fullName": "Jane Smith",
+      "email": "janesmith@example.com",
+      "confirmationNumber": "0987654321",
+      "rooms": "1",
+      "resortName": "Another Resort",
+      "cost": "1800"
+    },
+    {
+      "fullName": "Michael Johnson",
+      "email": "michaeljohnson@example.com",
+      "confirmationNumber": "5432167890",
+      "rooms": "3",
+      "resortName": "Yet Another Resort",
+      "cost": "4300"
+    },
+    {
+      "fullName": "Emily Davis",
+      "email": "emilydavis@example.com",
+      "confirmationNumber": "9876543210",
+      "rooms": "1",
+      "resortName": "One More Resort",
+      "cost": "6100"
+    },
+    {
+      "fullName": "David Wilson",
+      "email": "davidwilson@example.com",
+      "confirmationNumber": "1324354657",
+      "rooms": "2",
+      "resortName": "Last Resort",
+      "cost": "5200"
+    },
+    {
+      "fullName": "Sarah Martinez",
+      "email": "sarahmartinez@example.com",
+      "confirmationNumber": "5768291034",
+      "rooms": "1",
+      "resortName": "Final Resort",
+      "cost": "1600"
+    },
+    {
+      "fullName": "Robert Anderson",
+      "email": "robertanderson@example.com",
+      "confirmationNumber": "1029384756",
+      "rooms": "3",
+      "resortName": "Example Resort",
+      "cost": "3700"
+    },
+    {
+      "fullName": "Jessica Thomas",
+      "email": "jessicathomas@example.com",
+      "confirmationNumber": "9081726354",
+      "rooms": "1",
+      "resortName": "Another Resort",
+      "cost": "100"
+    },
+    {
+      "fullName": "Christopher Lee",
+      "email": "christopherlee@example.com",
+      "confirmationNumber": "6473829105",
+      "rooms": "2",
+      "resortName": "Yet Another Resort",
+      "cost": "2900"
+    },
+    {
+      "fullName": "Amanda Clark",
+      "email": "amandaclark@example.com",
+      "confirmationNumber": "2019384756",
+      "rooms": "1",
+      "resortName": "One More Resort",
+      "cost": "2800"
+    }
+  ]

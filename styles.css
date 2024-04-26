@@ -1,0 +1,340 @@
+/** Generales **/
+
+:root {
+    --primary: #274C69;
+    --border: #DBDADA;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+    margin: 0px;
+    font-family: 'Source Sans 3', sans-serif;
+  }
+
+p {
+    font-size: 14px;
+    display: block;
+}
+
+hr {
+    border: 1px solid rgb(232, 232, 232);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+/** Botones **/
+
+.btn-primary {
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    padding: 4px;
+    min-width: 100px;
+    background-color: var(--primary);
+    color: white;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.btn-secundary {
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    padding: 4px;
+    min-width: 100px;
+    background-color: white;
+    color: var(--primary);
+    height: fit-content;
+    cursor: pointer;
+}
+
+/** Header **/
+
+.hero {
+    background-image: url(assets/background-maldives.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.hero header {
+    padding: 1rem;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+#hambuerguerMenu {
+    display: none;
+}
+
+/** Contenido principal **/
+
+.title {
+    padding: 2rem 0rem;
+}
+
+.title h1 {
+    color: var(--primary);
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.title p {
+    margin-top: 4px;
+    text-align: center;
+    color: gray;
+}
+
+.tabs {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;grid-template-columns: repeat(4, 1fr);
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 1rem;
+    color: var(--border);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0rem;
+}
+
+.active {
+    border-bottom: 2px solid var(--primary);
+    margin-bottom: -2px;
+    color: var(--primary);
+}
+
+.tabs__tab {
+    width: 100%;
+    text-align: center;
+}
+
+.tabs__tab h4 {
+    margin-bottom: 8px;
+}
+
+.tabs__tab:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.tamplateContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+aside {
+    grid-column: 1 / 2;
+    margin-top: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1rem;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 300px;
+    margin: 0 auto;
+    height: fit-content;
+}
+
+aside h3 {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+}
+
+aside span {
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+}
+
+aside a {
+    display: block;
+    color: rgb(29, 178, 178);
+    text-align: center;
+    text-decoration: none;
+}
+
+label {
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+    height: 1.2rem;
+    width: 1.2rem ;
+}
+
+input[type="submit"] {
+    background-color: var(--primary);
+    color: white;
+    font-weight: 200;
+}
+
+/** Estilos de la card **/
+
+.tamplateContainer__content {
+    grid-column: 2 / 5;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin: 0px auto;
+}
+
+.tamplateContainer__card {
+    width: calc(50% - 8px);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    height: fit-content;
+}
+
+.tamplateContainer__card:hover {
+    border: 1.5px solid var(--primary);
+}
+
+.tamplateContainer__card--top {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+}
+
+.tamplateContainer__card--top h5, .tamplateContainer__card--top span {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.tamplateContainer__card--top p {
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+}
+
+.tamplateContainer__card--bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(187, 187, 187);
+}
+
+.tamplateContainer__card--bottom div p {
+    margin-bottom: 4px;
+}
+
+.tamplateContainer__card--bottom div p:nth-child(1) {
+    color: var(--primary);
+}
+
+footer {
+    margin-top: 3rem;
+    background-color: var(--primary);
+    text-align: center;
+    color: white;
+    padding: 3rem 1rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+
+    #hambuerguerMenu {
+        display: block;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .tamplateContainer__content {
+        grid-column: 1 / 5;
+    }
+
+
+}
+
+@media (max-width: 390px) {
+    .tamplateContainer__card {
+        width: 100%;
+    }
+
+    .tabs {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 0px solid var(--border);
+    }
+
+    .tabs__tab {
+        background-color: #F8F8F8;
+        color: var(--primary);
+        padding: 8px 1rem;
+        border-radius: 8px;
+        width: fit-content;
+        cursor: pointer;
+    }
+
+    .tabs__tab img {
+        display: none;
+    }
+
+    .tabs__tab h4 {
+        margin-bottom: 0px;
+    }
+
+    .active {
+        background-color: #EFF6FF;
+        border: 1px solid #60A5FA;
+        color: #60A5FA;
+    }
+}

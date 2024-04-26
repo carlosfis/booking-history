@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Página ejemplo Hotel</title>
+</head>
+<body onload="downloadReservations()">
+        <div class="hero">
+            <header>
+                <p>LOGO IPSUM</p>
+                <nav>
+                    <p>Hi, Carlos Fischer</p>
+                    <ul>
+                        <li>Habitaciones</li>
+                        <li>Nosotros</li>
+                        <li>Cuenta</li>
+                    </ul>
+                    <img src="assets/avatar.png" alt="avatar" height="40px">
+                </nav>
+                <img src="assets/SF/Grabber.svg" alt="" id="hambuerguerMenu">
+            </header>
+        </div>
+
+        <div class="title">
+            <h1>Booking History In Global Sales</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="tabs">
+            <div class="tabs__tab active">
+                <img src="assets/SF/User.svg" alt="">
+                <h4>Individual</h4>
+            </div>
+            <div class="tabs__tab">
+                <img src="assets/SF/Wedding.svg" alt="">
+                <h4>Wedding</h4>
+            </div>
+            <div class="tabs__tab">
+                <img src="assets/SF/Wedding.svg" alt="">
+                <h4>Agency</h4>
+            </div>
+            <div class="tabs__tab">
+                <img src="assets/SF/User 3.svg" alt="">
+                <h4>Groups</h4>
+            </div>
+        </div>
+
+        <div class="tamplateContainer">
+            <aside>
+                <h3>Filtros</h3>
+                <input list="opciones" name="opciones" placeholder="Search by">
+                <datalist id="opciones">
+                    <option value="Estatus 1"></option>
+                    <option value="Estatus 2"></option>
+                    <option value="Estatus 3"></option>
+                    <option value="Estatus 4"></option>
+                </datalist>
+
+                <input type="search" placeholder="Search by">
+
+                <hr>
+
+                <input type="text" name="" id="" placeholder="Search by date">
+                <input type="date" name="" id="" placeholder="Creation date">
+
+                <span>Status</span>
+
+                <label><input type="checkbox">All</label>
+                <label><input type="checkbox">On hold</label>
+                <label><input type="checkbox">Reserved</label>
+                <label><input type="checkbox">Canceled</label>
+                <input type="submit" value="SEARCH">
+
+                <a href="#">Clear filters</a>
+
+            </aside>
+
+            <div class="tamplateContainer__content"></div>
+
+        </div>
+        <footer>
+            <p>LOGO IPSUM</p>
+            <div>
+                <span>Acerca de Logo Ipsum</span> | <span>Policita de privacidad</span>
+            </div>
+            <p>If you have any problems, please get in touch with us at: +52 (123) 1234 5678 or write to example@example.com</p>
+        </footer>
+
+        <script src="app.js"></script>
+</body>
+</html>
